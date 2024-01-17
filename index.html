@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="html.css">
 </head>
 
-<body>
+<body >
     <header>
         <nav>
             <h2 class="meta-section"><img src="Images/Group 40071 (2).png" alt=""> Meta <span class="travel"> Travel</span></h2>
@@ -28,14 +28,22 @@
                 Discover our most popular destinations</p>
             <div class="inputParent">
                 <input type="text" placeholder="Where go" class="input">
-                <input type="text" placeholder=" When" class="input">
-                <input type="text" placeholder=" Select Type" class="input">
+               <select class="select">
+                   <option value="">When</option>
+                   <option value="">When</option>
+                   <option value="">When</option>
+               </select>
+               <select class="select">
+                <option value="">Select type</option>
+                <option value="">When</option>
+                <option value="">When</option>
+            </select>
                 <button class="btn-class">Find Now</button>
             </div>
         </section>
         <!--Our Popular Tours-->
         <section class="popular-section">
-            <div class="">
+            <div class="popular-class">
                 <h3 class="banner-title">Our Popular Tours</h3>
                 <p class="pera text-color">As the Midnight Sun turns night into day, Scandinavia shines.
                     <ul class="text-color">
@@ -46,7 +54,7 @@
                         <li>Copenhagen and Oslo to Norway’s magnificent fjord
                             country.</li>
                     </ul>
-                   <p class="text-color"> our small group encounters Scandinavia at its best, both on and off the beaten path</p>
+                   <p class="text-color"> our small group encounters Scandinavia at its best, <br> both on and off the beaten path</p>
                 </p>
                 <button class="btn-primary">Read More</button>
             </div>
@@ -84,11 +92,11 @@
                 </p>
             </div>
             <div class="img-class">
-                <img src="Images/img1.jpg" alt="">
+                <img class="image" src="Images/img1.jpg" alt="">
             </div>
         </section>
     </header>
-    <main>
+    <main class="container">
         <section>
             <div class="section-head">
                 <h3 class="banner-title">Why Choose Us</h3>
@@ -111,6 +119,9 @@
                         standard of customer care. It goes beyond just solving problems or answering questions.</p>
                 </div>
             </nav>
+         
+        </section>
+        <section class="best-price-container">
             <div class="price-tag-section">
                 <img src="Images/price-tag 1.svg" alt="">
                 <h4 class="page-Title">Best Price Guarantee</h4>
@@ -149,7 +160,7 @@
                 <input type="text" placeholder=" Enter your email" class="input">
             <button class="subscribe-btn">Subscribe</button>
             </div>
-            <div>
+            <div class="relativeDiv">
                 <img class="offer-img" src="Images/Rectangle 8 (1).png" alt="">
                 <p class="offer-description">Travel.com <br>
                     Save up to 70%

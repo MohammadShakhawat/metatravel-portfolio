@@ -3,6 +3,23 @@
 * {
     font-family: 'Mulish', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.select{
+      padding: 0 30px;
+      border: 0;
+      outline: 0;
+      border-radius: 10px;
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .banner-title {
@@ -57,14 +74,9 @@
     background: #FF5400;
 }
 
-. {
-    color: ;
-}
 
-header {
-    padding: 50px 240px;
-    width: 100%;
-}
+
+
 
 nav {
     display: flex;
@@ -176,7 +188,11 @@ nav li a {
    
 }
 
-
+.popular-class{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
 .popular-title {
     color: #131318;
@@ -237,11 +253,13 @@ nav li a {
     width: 100%;
 }
 
-main {
-    padding: 50px 240px;
-    width: 100%;
-    
+.image{
+      width: 100%;
+      margin-right: 10px;
+      border-radius: 10px;
 }
+
+
 
 .section-head {
     text-align: center;
@@ -298,6 +316,12 @@ main {
     text-align: center;
 }
 
+.best-price-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
 .price-tag-section {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -308,6 +332,7 @@ main {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    
     align-items: center;
     justify-content: center;
 
@@ -347,6 +372,8 @@ main {
 .bordar-side {
     border-radius: 16px;
     border: 1px solid #FF5400;
+    padding: 20px;
+  
 }
 
 .footer {
@@ -358,6 +385,22 @@ main {
     width: 100%;
     padding: 50px 240px;
 }
+
+.relativeDiv{
+    position: relative ;
+}
+
+.offer-description{
+     position: absolute;
+     bottom: 20px;
+     right: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 20px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -374,16 +417,45 @@ main {
     .popular-section{
         flex-direction: column;
     }
-    .img-decoration,
-    .img-decoration3,
-    {
-        max-width: 45%;
-        position: static;
+
+    .section-container{
+         width: 100%;
     }
-    .bagan-class .img-class{
-        max-width: 45%;
-        position: static;
+
+    .place-section{
+        flex-direction: column;
     }
+   .entry-section{
+    flex-direction: column;
+   }
+
+   .footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.inputParent{
+    flex-direction: column;
+    width: 100%;
+}
+.select{
+    width: 100%;
+    height: 40px;
+}
+.input{
+    width: 100%;
+}
+.btn-class{
+    width: 100%;
+}
+
+.container{
+    padding: 10px;
 }
 
 
+}
